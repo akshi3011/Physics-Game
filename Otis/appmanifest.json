@@ -1,7 +1,7 @@
 {
 	"name": "Otis Blue Dragon With White Eyes",
 	"short_name": "Otis Blue Dragon With White Eyes",
-	"description": "",
+	"description": "Physics Game",
 	"start_url": "index.html",
 	"display": "fullscreen",
 	"orientation": "landscape",

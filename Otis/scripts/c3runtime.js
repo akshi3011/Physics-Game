@@ -4427,7 +4427,15 @@ self.C3_GetObjectRefTable = function () {
 		C3.Plugins.Sprite.Cnds.IsOnScreen,
 		C3.Plugins.Audio.Acts.Play,
 		C3.Plugins.System.Acts.SetVar,
+		C3.Plugins.advert.Acts.CreateBanner,
+		C3.Plugins.advert.Cnds.OnBannerReady,
+		C3.Plugins.advert.Acts.ShowBanner,
+		C3.Plugins.advert.Acts.HideBanner,
 		C3.Plugins.System.Cnds.LayerVisible,
+		C3.Plugins.advert.Acts.CreateInterstitial,
+		C3.Plugins.advert.Cnds.IsInterstitialLoaded,
+		C3.Plugins.advert.Acts.ShowInterstitial,
+		C3.Plugins.advert.Cnds.OnInterstitialCancelled,
 		C3.Plugins.System.Cnds.Every,
 		C3.Behaviors.Physics.Acts.SetEnabled,
 		C3.Behaviors.Physics.Acts.EnableCollisions,
@@ -4441,9 +4449,7 @@ self.C3_GetObjectRefTable = function () {
 		C3.Plugins.Text.Acts.SetVisible,
 		C3.Behaviors.LOS.Cnds.HasLOSToObject,
 		C3.Plugins.Text.Acts.Destroy,
-		C3.Plugins.advert.Acts.CreateInterstitial,
 		C3.Plugins.System.Cnds.OnLayoutEnd,
-		C3.Plugins.advert.Acts.ShowInterstitial,
 		C3.Plugins.advert.Cnds.OnInterstitialFailedToLoad
 	];
 };
@@ -4881,9 +4887,11 @@ self.C3_ExpressionFuncs = [
 			return () => and(" ", v0.GetValue());
 		},
 		() => 4,
+		() => "ca-app-pub-4122209135488756/3445629257\n",
 		() => 0.5,
 		() => 6,
 		() => "Mute/Unmute5",
+		() => "ca-app-pub-4122209135488756/9639502514",
 		() => "Flame/Sparks2",
 		() => "Mute/Unmute2",
 		() => "Home/Pause/Resume/Restart 2",

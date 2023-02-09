@@ -4729,6 +4729,8 @@ self.C3_JsPropNameTable = [
 	{txtlvl6three: 0},
 	{trigtxt: 0},
 	{trigtxt2: 0},
+	{InstrTrigger: 0},
+	{OkayBut: 0},
 	{piege: 0},
 	{y: 0},
 	{Flame: 0},
